@@ -1273,8 +1273,8 @@ int Field::processInput(Operate *ope)
 					// ƒL[“ü—Í‚É‰‚¶‚Äˆ—
 					if (CheckHitKey(KEY_INPUT_LEFT))	operate_bit |= LEFT;
 			   else if (CheckHitKey(KEY_INPUT_RIGHT))	operate_bit |= RIGHT;
-					if (CheckHitKey(KEY_INPUT_X))		operate_bit |= R_ROTATE;
-			   else	if (CheckHitKey(KEY_INPUT_Z))		operate_bit |= L_ROTATE;
+					if (CheckHitKey(KEY_INPUT_Z))		operate_bit |= R_ROTATE;
+			   else	if (CheckHitKey(KEY_INPUT_X))		operate_bit |= L_ROTATE;
 			   		if (CheckHitKey(KEY_INPUT_DOWN))	operate_bit |= DOWN;
 			}
 		}
